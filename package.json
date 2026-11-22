@@ -1,0 +1,12 @@
+{
+  "name": "education-hub",
+  "private": true,
+  "description": "Education Hub: independent apps (api, mobile). No npm workspaces, to keep Expo/Metro simple.",
+  "scripts": {
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down",
+    "api": "npm --prefix apps/api run start:dev",
+    "mobile": "npm --prefix apps/mobile run start"
+  },
+  "engines": { "node": ">=20" }
+}

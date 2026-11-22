@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Education Hub",
+    "slug": "education-hub",
+    "scheme": "eduhub",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": { "typedRoutes": true },
+    "ios": { "bundleIdentifier": "com.example.eduhub" },
+    "android": { "package": "com.example.eduhub" }
+  }
+}
